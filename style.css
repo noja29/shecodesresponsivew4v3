@@ -165,18 +165,31 @@ footer .contact-btn {
   margin-left: 50px;
   margin-top: 10px;
 }
-footer .btn-branding {
-  background-color: var(--branding-color);
-  border-radius: 5px;
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
   color: white;
-  font-weight: 600;
-  font-size: 17px;
+  text-decoration: none;
+  font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  transition: var(--branding-color) 0.5s ease-in-out;
 }
+
 .btn-branding:hover {
-  background-color: var(--branding-color);
-  opacity: 0.7;
+  color: white;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
   color: white;
 }
