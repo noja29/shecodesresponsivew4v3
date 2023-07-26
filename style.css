@@ -166,9 +166,9 @@ footer .contact-btn {
   margin-top: 10px;
 }
 .btn-branding {
-  background: var(--branding-color);
+  background: blueviolet;
   border-radius: 4px;
-  color: white;
+  color: rgb(237, 49, 49);
   text-decoration: none;
   font-size: 18px;
   line-height: 27px;
@@ -176,7 +176,7 @@ footer .contact-btn {
 }
 
 .btn-branding:hover {
-  color: white;
+  color: rgb(15, 126, 52);
 }
 
 .btn-branding-outline {
