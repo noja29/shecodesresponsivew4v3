@@ -81,7 +81,7 @@ p {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: rgb(23, 91, 180);
 }
 
 .about-link {
