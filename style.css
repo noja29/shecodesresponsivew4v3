@@ -160,12 +160,12 @@ footer .contact-box {
   margin: 40px 0;
 }
 
-.contact-btn {
+footer .contact-btn {
   padding: 15px 50px;
   margin-left: 50px;
   margin-top: 10px;
 }
-.btn-branding {
+footer .btn-branding {
   background-color: var(--branding-color);
   border-radius: 5px;
   color: white;
