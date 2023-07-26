@@ -159,3 +159,9 @@ footer .contact-box {
   border-radius: 10px;
   margin: 40px 0;
 }
+
+.contact-btn {
+  padding: 15px 50px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
