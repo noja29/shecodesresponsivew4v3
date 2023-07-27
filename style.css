@@ -167,19 +167,13 @@ footer .contact-btn {
   margin-top: 10px;
 }
 .btn-branding {
-  background: blueviolet;
+  background: var(--branding-color);
   border-radius: 4px;
-  color: rgb(237, 49, 49);
-  text-decoration: none;
+  color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10 * --px 30px;
 }
-
-.btn-branding:hover {
-  color: rgb(15, 126, 52);
-}
-
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -187,4 +181,8 @@ footer .contact-btn {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  color: rgb(15, 126, 52);
 }
